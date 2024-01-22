@@ -1,5 +1,5 @@
-import * as build from "@remix-run/dev/server-build";
-import { createRequestHandler } from "@netlify/remix-adapter";
+const build = require("@remix-run/dev/server-build");
+const { createRequestHandler } = require("@netlify/remix-adapter");
 
 const handler = createRequestHandler({
   build,

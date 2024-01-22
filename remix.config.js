@@ -6,6 +6,8 @@ module.exports = {
     ...config,
     // same as config config.serverBuildPath but with a .js extension in stead of .mjs
     serverBuildPath: './.netlify/functions-internal/server.mjs',
+    // same as config.server but with a .js extension in stead of .ts
+    server: './server.js',
   } : undefined),
 
   serverModuleFormat: "cjs",
